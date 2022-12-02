@@ -1,0 +1,36 @@
+$dark: rgba(
+  $color: black,
+  $alpha: 0.9,
+);
+
+.btn-primary,
+.btn {
+  background-color: $dark !important;
+  color: #fff;
+  border-radius: 0;
+  outline: 0;
+  border: 0 !important;
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(
+      $color: $dark,
+      $alpha: 0.8
+    ) !important;
+    color: #fff !important;
+  }
+}
+
+.btn-danger {
+  background-color: #dc3535 !important;
+
+  &:hover,
+  &:focus {
+    background-color: #dc3535 !important;
+  }
+}
